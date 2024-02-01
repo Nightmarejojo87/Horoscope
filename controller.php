@@ -1,9 +1,12 @@
-<?php
+<?php 
 switch($action)
 {
-    case 'response':
+    case 'reponse':
     {
-        echo 'Partie à coder';
+        var_dump ($_REQUEST ['liste']);
+        $liste=$_REQUEST ['liste'];
+
+        echo $signe [$liste];
     break;
     }
     default:

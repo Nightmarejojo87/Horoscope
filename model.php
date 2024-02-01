@@ -1,4 +1,5 @@
 <?php
+
 $signe = array(
   'Bélier'=>'vous devez faire les effort les plus serieux pour acquérir un bon niveau.',
   'Taureau'=>'une de vos plus grande qualités est la capacité de saisir les théories.',
@@ -14,22 +15,3 @@ $signe = array(
   'Poissons'=>"Votre esprit vif et limpide facilite la résolution des problèmes.",
 
 );
-$nbChamps = count($signe);
-echo "Le tableau signe contient $nbChamps champs";
-print_r($signe);
-?>
-
-<!--<ul>
-  <li><?php echo $signe["Bélier"];?></li>
-  <li><?php echo $signe["Taureau"];?></li>
-  <li><?php echo $signe["Gémeaux"];?></li>
-  <li><?php echo $signe["Cancer"];?></li>
-  <li><?php echo $signe["Lion"];?></li>
-  <li><?php echo $signe["Vierge"];?></li>
-  <li><?php echo $signe["Balance"];?></li>
-  <li><?php echo $signe["Scorpion"];?></li>
-  <li><?php echo $signe["Sagittaire"];?></li>
-  <li><?php echo $signe["Capricorne"];?></li>
-  <li><?php echo $signe["Verseau"];?></li>
-  <li><?php echo $signe["Poissons"];?></li>
-  </ul>!>

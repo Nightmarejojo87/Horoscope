@@ -1,5 +1,4 @@
 <?php
 include 'models/model.php';
-$action=isset($_REQUEST['action'])? $action=$_REQUEST['action']"";
-include 'controllers/controller2.php';
-?> 
+$action=isset($_REQUEST['action'])?$_REQUEST['action']:"";
+include 'controllers/controller.php';
