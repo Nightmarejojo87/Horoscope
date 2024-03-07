@@ -1,3 +1,5 @@
+<a href="index.php?action=modifier">Administrer</a></br>
+
 <form method="post" action="index.php?action=response"> 
 
 <select name="liste">
