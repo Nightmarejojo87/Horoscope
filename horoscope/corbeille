@@ -1,4 +1,0 @@
-<?php foreach ($signe as $k => $v): ?>
-    <option value="<?= $k ?>"><?= $k ?></option> 
-    <option value="<?= $v ?>"><?= $v ?></option>
-    <?php endforeach ?>
